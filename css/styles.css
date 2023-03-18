@@ -220,5 +220,59 @@ main {
 }
 
 .btn-center {
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 75px;
+}
+
+/* Footer */
+.footer {
+    background: #FFF8F3;
+    height: 780px;
+}
+
+.footer-info {
+    display: flex;
+    margin: 0px 230px;
+    gap: 75px;
+}
+
+.connect,
+.contact {
+    margin: 130px 0px;
+}
+
+.connect h3,
+.contact h3 {
+    color: #474747;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.connect p {
+    line-height: 28px;
+    color: #474747;
+    margin-bottom: 25px;
+}
+
+.connect a {
+    margin-right: 15px;
+}
+
+.contact input, textarea{
+    height: 50px;
+    width: 400px;
+    display: block;
+    color: #757575;
+    padding: 5px 30px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border: 0;
+}
+.contact textarea{
+    height: 180px;
+    padding-top: 20px;
 }
