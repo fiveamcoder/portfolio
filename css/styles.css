@@ -105,7 +105,8 @@ main {
     margin-bottom: 30px;
 }
 
-.section-description, .single-skill p {
+.section-description,
+.single-skill p {
     font-size: 18px;
     line-height: 30px;
     color: #757575;
@@ -125,16 +126,17 @@ main {
     line-height: 30px;
 }
 
-.basic-details, .single-skill h3 {
+.basic-details,
+.single-skill h3 {
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
     color: #474747;
 }
 
-/* Skills */
+/* What I Do : Skills */
 .skills {
-    margin-top: 150px;
+    margin-top: 130px;
 }
 
 .skill {
@@ -143,9 +145,11 @@ main {
     align-items: center;
     gap: 25px;
 }
-.single-skill:hover{
+
+.single-skill:hover {
     border: 2px solid #FD6E0A;
 }
+
 .single-skill {
     height: 377px;
     margin-top: 50px;
@@ -164,4 +168,57 @@ main {
 
 .single-skill h3 {
     margin-bottom: 20px;
+}
+
+/* Resume */
+.resume-details {
+    display: flex;
+    gap: 25px;
+}
+
+.education h3,
+.experience h3 {
+    color: #474747;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 75px;
+}
+
+.edu-list h3,
+.exp-list h3 {
+    color: #474747;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.edu-list h4,
+.exp-list h4 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.edu-list p,
+.exp-list p {
+    line-height: 28px;
+    color: #757575;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.edu-list,
+.exp-list {
+    border-bottom: 1px solid #D1D1D1;
+}
+
+.edu-list:last-child,
+.exp-list:last-child {
+    border-bottom: none;
+}
+
+.btn-center {
+    margin: 0 auto;
 }
