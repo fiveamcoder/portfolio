@@ -10,6 +10,10 @@
 .fa-download{
     margin-right: 5px;
 }
+.fa-phone{
+    margin-right: 2px;
+    color: #FD6E0A;
+}
 .btn-primary {
     background-color: #FD6E0A;
     height: 65px;
@@ -20,6 +24,14 @@
     border: 0;
     padding: 18px 35px;
     cursor: pointer;
+}
+
+.btn-phone{
+    background: #FFF8F3;
+    margin-left: 15px;
+    color: #FD6E0A;
+    border: 2px solid #FD6E0A;
+
 }
 
 /* Header and Navigation Styles */
